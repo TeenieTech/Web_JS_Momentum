@@ -1,0 +1,59 @@
+body{
+  background-size: cover;
+  background-position: center center;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+  color: white;
+  text-align: center;
+}
+
+.js-toDoList{
+	font-size: 16px;
+}
+.btn {
+  cursor: pointer;
+}
+
+h1 {
+  color : #ffffff;
+}
+
+
+.cliked {
+  color : #424242;
+}
+
+.form,
+.greeting {
+  display : none;
+}
+
+.showing {
+  display : block;
+  font-size: 25px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+ul{
+	padding: 0;
+}
+
+.bgImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: -1;
+	animation: fadeIn 1s linear;
+}
